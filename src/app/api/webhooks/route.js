@@ -12,13 +12,13 @@ export async function POST(req) {
     console.log('Webhook payload:', evt.data)
 
     if (eventType === 'user.created') {
-      console.log('User created event');
+      console.log("User created event");
     }
     if (eventType === 'user.deleted') {
-      console.log('User created event');
+      console.log("User deleted event");
     }
     if (eventType === 'user.updated') {
-      console.log('User created event');
+      console.log("User updated event");
     }
     
 

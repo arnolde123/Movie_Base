@@ -14,7 +14,7 @@ export async function POST(req) {
     if (eventType === 'user.created') {
       console.log("User created event");
     }
-    if (eventTyeventTypepe === 'user.deleted') {
+    if (eventType === 'user.deleted') {
       console.log("User deleted event");
     }
     if (eventType === 'user.updated') {
